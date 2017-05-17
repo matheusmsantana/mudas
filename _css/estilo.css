@@ -1,0 +1,451 @@
+@charset "UTF-8";
+a{
+	text-decoration: none;
+	color: #315130; 
+	transition: color 0.1s;
+}
+a:hover{
+	color: #9dce01;
+}
+	
+body {
+	font-family: arial;
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: rgba(0,0,0,1);
+}
+
+container{
+	background-color: #FE9481;
+	height: 417px;
+	padding: 30px;
+	max-width: 1200px;
+}
+	
+
+	/*Centralizando textos com as tags <p>*/
+p {
+	text-align: justify;
+	text-indent: 5px;
+	letter-spacing: -1px; /*espaçamento entre letras*/
+}
+	 
+header#cabecalho {
+	position: relative;
+    height: 180px;
+	border:2px solid white;
+	box-shadow: 1px 1px 1px white;
+}
+
+/*Logo do Site*/ 
+figure foto-central { 
+	height: 20px;
+	bottom: 5px;
+}
+
+/*imagem de fundo menu*/
+#menuf{
+	position: absolute;
+	top: -4px;
+	right: 0px;
+	width: 1325px;
+}
+/*Venha conhecer nossa loja */
+#linkloja{
+	text-align: justify;
+	text-indent: 5px;
+	letter-spacing: -2;
+	/*displey: block;
+	float: left;*/
+	top: 148px;
+	height: 30px;
+	right: 40px;
+	position: relative;
+	color: #315130;
+}	
+
+#linkloja:hover{
+	color: #
+}
+	   
+	   /*estilo de imagens e legendas*/
+#icone {
+	position: absolute;
+	right: 30px;
+	top: 60px;
+	 }
+
+	 
+	   
+	   /*formatação menu*/
+nav#menu {
+	display:block;
+	width:170px; 
+	}	   
+	   
+	   
+nav#menu ul {
+	list-style:none;
+	text-transform:uppercase;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	font-weight: 100;
+	 }
+	 
+	 
+	   
+nav#menu li {
+	display:inline-block;   
+	background-color: green; /*#dddddd;*/ 
+	padding:10px;
+	margin:2px;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	 }
+		 
+nav#menu h1{		 
+	display:none;		
+}
+
+nav#menu li:hover{
+	background-color: #9dce01  /*#606060;*/
+}	 
+
+nav#menu a {
+	text-decoration:none;
+	color:white;
+}
+
+	 @media screen and (max-width: 768px){
+#menu{
+			
+			width: 100%;
+			top: 0px;
+			
+		
+		}
+		
+#menu ul li{
+			width:auto;
+			display: block;
+			
+			
+		}
+	  }	
+	  
+	  
+	 /*formtação caixa de pesquisa*/
+#pesquisa{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+} 
+
+.textopesquisa{  
+	background: #9dce01;
+	border-radius: 5px 0px 0px 5px;
+	padding: 5px;
+	margin: 1px;
+	width: 200px;
+	right: 56px;
+	position:absolute;
+}
+.botaopesquisa{   
+	background: #9dce01;
+	padding:5px;
+	margin:1px;	
+	border-radius: 0px 5px 5px 0px #9dce01;
+}
+
+
+	/*Editando a div e h1 Titulo Produtos*/
+#tituloprodutos{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	color: #F0F8FF;
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: -0.2px;
+}
+#bordatp{
+	position: relative;
+    height: 70px;
+	width: 70%;
+	margin: auto;
+	border: 2px solid #315130;
+	border-radius: 5px 5px 5px;
+	box-shadow: 1px 1px 1px #315130;
+	background-color: #315130;
+	top: 5px;
+}
+
+
+	/*Organizando parte de centralização dos produtos e escopo*/
+#escopoprod{
+	position: relative;
+	width: 50%;
+}	
+	
+#produtos{
+	position: relative;
+	left: 200px;
+	width: 100%;
+	box-shadow: 20px solid black;
+}
+
+	/*Organizando a lista categoria*/
+#categ{
+	text-decoration: none;
+	position: absolute;	
+	top: -69px;
+	}	
+	 
+#categ .listacategoria 	{
+	position:absolute;
+	list-style: none;
+	top:35px;
+	border: 1px solid #315130; width:93%; align="center";
+	left: 0px;
+	margin: 0 auto;
+	text-align: -webkit-match-parent;   
+	padding: 5px;
+	margin-bottom:10px;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+	line-height: 200%;
+	text-decoration:none;
+	font-weight: 100;
+	text-align: center;
+	
+	 }
+	
+	 
+#categ h1{
+		width: 150px;
+		text-align: justify;
+		text-indent: 5px;
+		letter-spacing: -0.1px;
+		background: #315130;
+		padding: 10px 10px;
+		text-align: center;
+		margin: 0;
+		border: 1px solid #315130;
+		font-size: 14px;
+		border-radius: 5px 5px 0px 0px;
+		text-transform: uppercase;
+		font-weight: 500;
+		color: #FFFFFF;
+	}
+	
+#categ li a{
+	
+
+	margin-bottom: 10px;
+	float: center;
+	border: 30px;
+	
+	
+	
+}	
+
+#lead{ 
+		
+	
+}
+	
+	/*Formatação de tamanho da img dos produtos */
+#tamimagem{
+	position: relative;	
+	width: 234px;
+	height: 231px;
+	border-radius: 2%;
+}
+
+/*Organizando lista de imagens div's Esquerda Centro e Direita*/
+#esquerda{
+	position: absolute;
+	left: -20px;
+	width: 50%;
+	box-shadow: 20px solid black;
+}
+
+#centro{
+	position: absolute;
+	right:9px;
+	width:56%;
+	top: 0px;
+	box-shadow: 20px solid black;
+}
+
+#direita{
+	position: absolute;
+	width: 50%;
+	box-shadow: 20px solid black;
+	float: right;
+	right: -250px;
+	top: 0px;
+}
+
+/*Organizando o figure e figcaption das imagens produtos*/
+#foto-legenda{
+	top: 10px;
+	border: 2px solid #315130;
+	font-size: 15px;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px;
+	display: block;
+	float: left;
+	color: #9dce01;
+	transition: color 0.1s;
+}
+
+#foto-legenda:hover{
+	color: #9dce01;
+	border: 2px solid #9dce01;
+	font-size: 15px;
+}
+
+/*Editando texto da descrição da imagens*/
+figure figcaption h1{
+	letter-spacing: -0.1px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px
+}
+
+figure figcaption h1 #promocao{
+	color: #999;
+	letter-spacing: -0.1px;
+	text-align: left;
+	left: -10px;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+/*Editando Fale Conosco*/
+h2#contatostxt{
+	
+}
+
+#flconosco{
+ 
+}
+
+#flselecione{
+	
+}
+
+#flmensagem{
+	
+}
+
+#flnome{
+	
+}
+
+#flemail{
+	
+}
+
+#flenviar{
+	
+}
+
+/*Rodape*/
+#footer{
+	position: absolute;
+	width: 50%;
+	float-right: 20px;
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	right: 30px;
+	text-align: justify;
+	text-indent: 3px;
+	letter-spacing: -2px;
+	font-size: 16px;
+	top: 20px;
+}
+
+p#rodape{
+	float:left;
+	left: -600px;
+	position: absolute;
+	width: 30%;
+	text-decoration: none;
+	list-style: none;
+	text-indent: 3px;
+	font-size: 16px;
+	margin: 40px;
+	color: #315130;
+	transition: color 0.1s;
+}
+p#rodape:hover{
+	color: #9dce01; 
+}
+	
+#escfooter{
+	border-top: 1px solid #315130; width:100%; align="center";
+	position: absolute;
+	color: #315130;
+	top: 2160px; !important;	
+}
+
+#controdape{
+	float-right;
+	right: 600px;
+	position: absolute;	
+	left: -90px;
+	text-decoration: none;
+	list-style: none;
+	text-indent: 2px;
+	font-size:16px;
+	color: #315130;
+}
+
+#imgrodape{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	right: 315px;
+	top: -27px;
+	color: green;
+	font-size:16px;
+}
+
+/*Editando rodape do fale conosco*/
+#footerfl{
+	position: absolute;
+	width: 50%;
+	float:right: 20px;
+	text-decoration: none;
+	list-style: none;
+	text-align: right;
+	right:30px;
+	text-align: justify;
+	text-indent: 3px;
+	letter-spacing: -2px;
+	font-size: 16px;
+	top: -110px;
+}
+
+#tammfooter{
+	border-top: 1px solid #315130;
+}
+
+#escfooterfl{
+	width:100%; align="center";
+	position: absolute;
+	color: #315130;
+	top: 800px;
+	
+}	
+
+	   
